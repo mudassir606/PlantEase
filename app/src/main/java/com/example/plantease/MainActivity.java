@@ -25,9 +25,6 @@ public class MainActivity extends AppCompatActivity {
         EditText passwordEdit = findViewById(R.id.passwordEdit);
         Button signinButton = findViewById(R.id.signinbtn);
 
-        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-        startActivity(intent);
-        finish();
 
         signinButton.setOnClickListener(new View.OnClickListener() {
             @Override

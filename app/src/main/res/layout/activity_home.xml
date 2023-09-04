@@ -95,6 +95,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card1"
+        android:clickable="true"
         android:layout_width="140dp"
         android:layout_height="187dp"
         android:layout_marginTop="30dp"
@@ -182,6 +183,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card2"
+        android:clickable="true"
         android:layout_width="140dp"
         android:layout_height="187dp"
         android:layout_marginTop="30dp"
@@ -267,11 +269,13 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card3"
+        android:clickable="true"
         android:layout_width="140dp"
         android:layout_height="187dp"
         app:cardBackgroundColor="#339D5C"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" >
 
@@ -301,6 +305,7 @@
                 android:layout_height="110dp"
                 android:layout_marginBottom="20dp"
                 android:src="@drawable/smantha"
+                android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -309,7 +314,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Smantha"
+                android:text="Samantha"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="15sp"
@@ -352,6 +357,7 @@
         android:id="@+id/card4"
         android:layout_width="140dp"
         android:layout_height="187dp"
+        android:clickable="true"
         app:cardElevation="10dp"
         app:cardBackgroundColor="#339D5C"
         app:cardCornerRadius="10dp"
@@ -393,7 +399,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alovera"
+                android:text="Aloe vera"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:textSize="15sp"
